@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         {
             message = "Smaller"
         }
-        //Toast.makeText(this ,message, Toast.LENGTH_LONG).show()
+        //  Toast.makeText(this ,message, Toast.LENGTH_LONG).show()
         AlertDialog.Builder(this)
                 .setTitle(message)
                 .setPositiveButton("OK", null)
